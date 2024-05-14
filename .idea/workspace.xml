@@ -5,72 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f718af2-a5b7-4dbf-b765-fe6d69655f3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/BloomFilterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/base/BigDecimalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/base/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/base/DequeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/base/JsonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/base/JsonDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/base/JsonDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/base/MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/demo/ArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/demo/AsymmetricEncryptionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/demo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/demo/Md5Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/demo/SHA256Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/demo/SymmetricEncryptionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/jvm/GcTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/双指针/三数之和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/双指针/接雨水.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/双指针/盛最多水的容器.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/双指针/移动零.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/哈希/两数之和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/哈希/字母异位词分组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/哈希/最长连续序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/数组和字符串/删除有序数组中的重复项.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/数组和字符串/合并两个有序数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/数组和字符串/多数元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/数组和字符串/移除元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/滑动窗口/无重复字符的最长子串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/链表/相交链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/BeanDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/CustomApplicationContextInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/Loggable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/LoggingBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/MyDisposableBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/MyLoggableBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/PrimaryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/PrimaryBeanProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/ServiceA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/ServiceB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/aop/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/aop/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/aop/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/event/RegisterEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/event/RegisterInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/event/RegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/event/RegisterSuccessEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/lazy/ClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/spring/lazy/ClassB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/thread/AQS_Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/thread/CAS_Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/thread/CompletableFuture_Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/thread/FutureAndCallableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/thread/LockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/thread/NotifyDemo_Error_Use.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/thread/NotifyDemo_Use.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/thread/SynchronousQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/thread/ThreadCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/thread/ThreadPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/thread/ThreadlocalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/thread/TokenBucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/thread/VolatileAtomicityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/resources/Beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/coding/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/CodingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/CodingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/数组和字符串/删除有序数组中的重复项.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/数组和字符串/删除有序数组中的重复项.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/数组和字符串/合并两个有序数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/数组和字符串/合并两个有序数组.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/数组和字符串/移除元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/数组和字符串/移除元素.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,30 +80,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/liutongchun/Desktop/project/practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;dc57838cdc6a68225af72edaef6a81e7&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/liutongchun/Desktop/project/practice/coding/src/main/java/com/example/coding/lec/demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "dc57838cdc6a68225af72edaef6a81e7",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/demo" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.coding.thread" />
     </key>
@@ -296,7 +236,7 @@
       <workItem from="1714982043886" duration="3723000" />
       <workItem from="1715132038482" duration="1256000" />
       <workItem from="1715564162005" duration="11131000" />
-      <workItem from="1715674597754" duration="20000" />
+      <workItem from="1715674597754" duration="1906000" />
     </task>
     <servers />
   </component>

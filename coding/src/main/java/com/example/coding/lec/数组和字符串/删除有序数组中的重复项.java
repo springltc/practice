@@ -38,21 +38,15 @@ public class 删除有序数组中的重复项 {
             return 0;
         }
 
-        int count = 0;
         int val = nums[0];
-        for (int i = 0; i < length; i++) {
-            if (i == 0) {
-                nums[count] = val;
-                count++;
-            }
-
-            if (i + 1 < length && nums[i + 1] != val) {
-                val = nums[i + 1];
-                nums[count] = val;
+        int count = 1;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != val) {
+                nums[count] = nums[i];
+                val = nums[i];
                 count++;
             }
         }
-
         return count;
     }
 

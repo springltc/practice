@@ -37,8 +37,5 @@ public class 合并两个有序数组 {
             nums1[m + i] = nums2[i];
         }
         Arrays.sort(nums1);
-        for (int i : nums1) {
-            System.out.println(i);
-        }
     }
 }
