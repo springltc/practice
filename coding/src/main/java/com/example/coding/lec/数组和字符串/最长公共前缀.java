@@ -26,10 +26,12 @@ public class 最长公共前缀 {
 
     public static void main(String[] args) {
         String[] s = {"flower", "flow", "flight"};
+        String s1 = longestCommonPrefix(s);
+        System.out.println(s1);
     }
 
 
-    public String longestCommonPrefix(String[] strs) {
+    public static String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
             return "";
         }
@@ -44,7 +46,7 @@ public class 最长公共前缀 {
         return prefix;
     }
 
-    public String longestCommonPrefix(String str1, String str2) {
+    public static String longestCommonPrefix(String str1, String str2) {
         int length = Math.min(str1.length(), str2.length());
         int index = 0;
         while (index < length && str1.charAt(index) == str2.charAt(index)) {
