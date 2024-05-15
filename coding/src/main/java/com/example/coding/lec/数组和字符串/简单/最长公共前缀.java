@@ -1,4 +1,4 @@
-package com.example.coding.lec.数组和字符串;
+package com.example.coding.lec.数组和字符串.简单;
 
 
 /**

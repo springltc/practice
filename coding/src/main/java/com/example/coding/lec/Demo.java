@@ -7,7 +7,9 @@ package com.example.coding.lec;
 public class Demo {
 
     public static void main(String[] args) {
-
+        String s = "Hello, World!123";
+        String result = s.replaceAll("[^a-zA-Z0-9]", "");
+        System.out.println(result);
     }
 
     public static void method1() {
