@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f718af2-a5b7-4dbf-b765-fe6d69655f3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/区间/汇总区间.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/栈/有效的括号.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/链表/model/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/链表/合并两个有序链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/链表/环形链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/哈希/存在重复元素II.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/哈希/存在重复元素II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/数组和字符串/中等/删除有序数组中的重复项II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/数组和字符串/中等/轮转数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/数组和字符串/中等/轮转数组_超出时间限制.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,13 +111,13 @@
       <recent name="com.example.coding.thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.环形链表">
-    <configuration name="两数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec.哈希.两数之和" />
+  <component name="RunManager" selected="Application.轮转数组">
+    <configuration name="轮转数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec.数组和字符串.中等.轮转数组" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.coding.lec.哈希.*" />
+          <option name="PATTERN" value="com.example.coding.lec.数组和字符串.中等.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="存在重复元素II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec.哈希.存在重复元素II" />
+    <configuration name="删除有序数组中的重复项II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec.数组和字符串.中等.删除有序数组中的重复项II" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.coding.lec.哈希.*" />
+          <option name="PATTERN" value="com.example.coding.lec.数组和字符串.中等.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -334,11 +331,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.轮转数组" />
+        <item itemvalue="Application.删除有序数组中的重复项II" />
         <item itemvalue="Application.环形链表" />
         <item itemvalue="Application.有效的括号" />
         <item itemvalue="Application.汇总区间" />
-        <item itemvalue="Application.存在重复元素II" />
-        <item itemvalue="Application.两数之和" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +371,7 @@
       <workItem from="1715564162005" duration="11131000" />
       <workItem from="1715674597754" duration="9554000" />
       <workItem from="1715733125503" duration="19639000" />
-      <workItem from="1716187862623" duration="12467000" />
+      <workItem from="1716187862623" duration="18875000" />
     </task>
     <servers />
   </component>
