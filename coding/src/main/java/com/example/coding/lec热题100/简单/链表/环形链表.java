@@ -24,19 +24,42 @@ public class 环形链表 {
 
     }
 
+    //快慢指针
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) {
             return false;
         }
 
-        Set<ListNode> nodes = new HashSet<>();
-        while (head != null) {
-            if (!nodes.add(head)) {
+        ListNode fast = head;
+        ListNode slow = head;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            if (fast != null && fast == slow) {
                 return true;
             }
-            head = head.next;
+            slow = slow.next;
         }
 
         return false;
     }
+
+    //    链接：https://leetcode.cn/problems/linked-list-cycle/solutions/175734/yi-wen-gao-ding-chang-jian-de-lian-biao-wen-ti-h-2/
+
+
+//    public boolean hasCycle(ListNode head) {
+//        if (head == null || head.next == null) {
+//            return false;
+//        }
+//
+//        Set<ListNode> nodes = new HashSet<>();
+//        while (head != null) {
+//            if (!nodes.add(head)) {
+//                return true;
+//            }
+//            head = head.next;
+//        }
+//
+//        return false;
+//    }
 }
