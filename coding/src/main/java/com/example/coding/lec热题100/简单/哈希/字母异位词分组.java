@@ -3,7 +3,7 @@ package com.example.coding.lec热题100.简单.哈希;
 
 /**
  * 给你一个字符串数组，请你将 字母异位词 组合在一起。可以按任意顺序返回结果列表。
- *
+ * <p>
  * 字母异位词 是由重新排列源单词的所有字母得到的一个新单词。
  */
 
@@ -56,15 +56,10 @@ public class 字母异位词分组 {
             char[] chars = str.toCharArray();
             Arrays.sort(chars);
 
-            String sort = new String(chars);
-            List<String> list = map.get(sort);
-            if (list == null) {
-                List<String> arrayList = new ArrayList<>();
-                arrayList.add(str);
-                map.put(sort, arrayList);
-            } else {
-                list.add(str);
-            }
+            String key = new String(chars);
+            List<String> list = map.getOrDefault(key, new ArrayList<>());
+            list.add(str);
+            map.put(key, list);
         }
 
         return new ArrayList<>(map.values());
