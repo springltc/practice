@@ -46,5 +46,10 @@
       <option name="name" value="trendsi-public" />
       <option name="url" value="https://t1-nexus.trendsi.cc/repository/maven-public/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="trendsi-public" />
+      <option name="name" value="trendsi-public" />
+      <option name="url" value="https://t-nexus.trendsi.cc/repository/maven-public/" />
+    </remote-repository>
   </component>
 </project>
