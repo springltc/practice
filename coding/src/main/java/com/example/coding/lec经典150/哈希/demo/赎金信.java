@@ -37,7 +37,7 @@ package com.example.coding.lec经典150.哈希.demo;
 public class 赎金信 {
 
     public static void main(String[] args) {
- 
+
     }
 
 }
