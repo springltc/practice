@@ -9,6 +9,42 @@ package com.example.coding.lec经典150.数组和字符串.中等;
  * 题目数据 保证 数组 nums之中任意元素的全部前缀元素和后缀的乘积都在  32 位 整数范围内。
  * <p>
  * 请 不要使用除法，且在 O(n) 时间复杂度内完成此题。
+ * <p>
+ * 给你一个整数数组 nums，返回 数组 answer ，其中 answer[i] 等于 nums 中除 nums[i] 之外其余各元素的乘积 。
+ * <p>
+ * 题目数据 保证 数组 nums之中任意元素的全部前缀元素和后缀的乘积都在  32 位 整数范围内。
+ * <p>
+ * 请 不要使用除法，且在 O(n) 时间复杂度内完成此题。
+ * <p>
+ * 给你一个整数数组 nums，返回 数组 answer ，其中 answer[i] 等于 nums 中除 nums[i] 之外其余各元素的乘积 。
+ * <p>
+ * 题目数据 保证 数组 nums之中任意元素的全部前缀元素和后缀的乘积都在  32 位 整数范围内。
+ * <p>
+ * 请 不要使用除法，且在 O(n) 时间复杂度内完成此题。
+ * <p>
+ * 给你一个整数数组 nums，返回 数组 answer ，其中 answer[i] 等于 nums 中除 nums[i] 之外其余各元素的乘积 。
+ * <p>
+ * 题目数据 保证 数组 nums之中任意元素的全部前缀元素和后缀的乘积都在  32 位 整数范围内。
+ * <p>
+ * 请 不要使用除法，且在 O(n) 时间复杂度内完成此题。
+ * <p>
+ * 给你一个整数数组 nums，返回 数组 answer ，其中 answer[i] 等于 nums 中除 nums[i] 之外其余各元素的乘积 。
+ * <p>
+ * 题目数据 保证 数组 nums之中任意元素的全部前缀元素和后缀的乘积都在  32 位 整数范围内。
+ * <p>
+ * 请 不要使用除法，且在 O(n) 时间复杂度内完成此题。
+ * <p>
+ * 给你一个整数数组 nums，返回 数组 answer ，其中 answer[i] 等于 nums 中除 nums[i] 之外其余各元素的乘积 。
+ * <p>
+ * 题目数据 保证 数组 nums之中任意元素的全部前缀元素和后缀的乘积都在  32 位 整数范围内。
+ * <p>
+ * 请 不要使用除法，且在 O(n) 时间复杂度内完成此题。
+ * <p>
+ * 给你一个整数数组 nums，返回 数组 answer ，其中 answer[i] 等于 nums 中除 nums[i] 之外其余各元素的乘积 。
+ * <p>
+ * 题目数据 保证 数组 nums之中任意元素的全部前缀元素和后缀的乘积都在  32 位 整数范围内。
+ * <p>
+ * 请 不要使用除法，且在 O(n) 时间复杂度内完成此题。
  */
 
 /**
@@ -48,17 +84,23 @@ public class 除自身以外数组的乘积 {
         }
     }
 
+    //1, 2, 3, 4
     public static int[] productExceptSelf2(int[] nums) {
-        int n=nums.length;
-        int[] ans=new int[n];
-        Arrays.fill(ans,1);
-        int beforeSum=1;
-        int afterSum=1;
-        for(int i=0,j=n-1;i<n;i++,j--){
-            ans[i]*=beforeSum;
-            ans[j]*=afterSum;
-            beforeSum*=nums[i];
-            afterSum*=nums[j];
+        int n = nums.length;
+        int[] ans = new int[n];
+        Arrays.fill(ans, 1);
+        int beforeSum = 1;
+        int afterSum = 1;
+        for (int i = 0, j = n - 1; i < n; i++, j--) {
+            ans[i] = ans[i] * beforeSum;
+            //0 = 1 * 1
+            //1 = 1*2
+            ans[j] = ans[j] * afterSum;
+            //3 =  4 * 1
+            beforeSum = beforeSum * nums[i];
+            //beforeSum = 1 * 1
+            afterSum = afterSum * nums[j];
+            //afterSum = 1 * 4
         }
         return ans;
     }

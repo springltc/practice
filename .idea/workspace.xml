@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f718af2-a5b7-4dbf-b765-fe6d69655f3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/demo/SetD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/demo/SetD2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/demo/SortT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec热题100/简单/链表/demo/单链表反转.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec热题100/简单/链表/demo/相交链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/demo/买卖股票的最佳时机II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/demo/删除有序数组中的重复项II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/demo/跳跃游戏.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/demo/轮转数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/简单/demo/买卖股票的最佳时机.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/简单/demo/删除有序数组中的重复项.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/简单/demo/合并两个有序数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/简单/demo/多数元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/简单/demo/移除元素.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/跳跃游戏.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/跳跃游戏.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/read.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/demo/Z字形变换.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/demo/反转字符串中的单词.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/demo/除自身以外数组的乘积.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/简单/demo/找出字符串中第一个匹配项的下标.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/简单/demo/最后一个单词的长度.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/简单/demo/最长公共前缀.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/简单/demo/罗马数字转整数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/除自身以外数组的乘积.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/除自身以外数组的乘积.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,9 +121,9 @@
       <recent name="com.example.coding.lec2.简单.链表" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.跳跃游戏">
-    <configuration name="跳跃游戏" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数组和字符串.中等.demo.跳跃游戏" />
+  <component name="RunManager" selected="Application.Z字形变换">
+    <configuration name="反转字符串中的单词" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数组和字符串.中等.demo.反转字符串中的单词" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
@@ -141,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="合并两个有序数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数组和字符串.简单.demo.合并两个有序数组" />
+    <configuration name="找出字符串中第一个匹配项的下标" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数组和字符串.简单.demo.找出字符串中第一个匹配项的下标" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="多数元素" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数组和字符串.简单.demo.多数元素" />
+    <configuration name="最后一个单词的长度" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数组和字符串.简单.demo.最后一个单词的长度" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
@@ -167,8 +161,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="买卖股票的最佳时机" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数组和字符串.简单.demo.买卖股票的最佳时机" />
+    <configuration name="最长公共前缀" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数组和字符串.简单.demo.最长公共前缀" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
@@ -195,8 +189,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="买卖股票的最佳时机II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数组和字符串.中等.demo.买卖股票的最佳时机II" />
+    <configuration name="Z字形变换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数组和字符串.中等.demo.Z字形变换" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
@@ -581,11 +575,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.跳跃游戏" />
-        <item itemvalue="Application.买卖股票的最佳时机II" />
-        <item itemvalue="Application.买卖股票的最佳时机" />
-        <item itemvalue="Application.多数元素" />
-        <item itemvalue="Application.合并两个有序数组" />
+        <item itemvalue="Application.Z字形变换" />
+        <item itemvalue="Application.找出字符串中第一个匹配项的下标" />
+        <item itemvalue="Application.反转字符串中的单词" />
+        <item itemvalue="Application.最长公共前缀" />
+        <item itemvalue="Application.最后一个单词的长度" />
       </list>
     </recent_temporary>
   </component>
@@ -643,7 +637,7 @@
       <workItem from="1718953761713" duration="729000" />
       <workItem from="1719304310298" duration="1136000" />
       <workItem from="1719307768521" duration="8581000" />
-      <workItem from="1719798261365" duration="15529000" />
+      <workItem from="1719798261365" duration="30325000" />
     </task>
     <servers />
   </component>
