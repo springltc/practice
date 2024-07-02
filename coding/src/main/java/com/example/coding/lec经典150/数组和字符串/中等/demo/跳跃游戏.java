@@ -1,4 +1,4 @@
-package com.example.coding.lec经典150.数组和字符串.中等;
+package com.example.coding.lec经典150.数组和字符串.中等.demo;
 
 /**
  * @author liutc
@@ -35,37 +35,16 @@ public class 跳跃游戏 {
      * 可以对每一个能作为 起跳点 的格子都尝试跳一次，把 能跳到最远的距离 不断更新
      * 如果可以一直跳到最后，就成功了
      */
-    public static boolean canJump(int[] nums) {
+    private static boolean canJump(int[] nums) {
         int k = 0;
-        //3, 2, 1, 0, 4
         for (int i = 0; i < nums.length; i++) {
             if (i > k) {
                 return false;
             }
-            k = Math.max(k, i + nums[i]);
-            //k = 3
-            //k = 1+2 = 3
-            //k = 2+1 = 3
-            //k = 3 + 0 = 3
+            k = Math.max(k, (i + nums[i]));
         }
         return true;
     }
 
-    public static boolean canJump2(int[] nums) {
-        int k = 0;
-        //2, 3, 1, 1, 4
-        for (int i = 0; i < nums.length; i++) {
-            //0 > 0 非
-            if (i > k) {
-                return false;
-            }
-            //k = Math.max(0, 0 + 2) = 2
-            //k = Math.max(2, 1 + 3) = 4
-            //k = Math.max(4, 2 + 1) = 4
-            //k = Math.max(4, 3 + 4) = 7
-            k = Math.max(k, i + nums[i]);
 
-        }
-        return true;
-    }
 }
