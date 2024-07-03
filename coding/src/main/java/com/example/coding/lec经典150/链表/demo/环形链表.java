@@ -1,4 +1,4 @@
-package com.example.coding.lec经典150.链表;
+package com.example.coding.lec经典150.链表.demo;
 
 
 import com.example.coding.lec经典150.链表.model.ListNode;
