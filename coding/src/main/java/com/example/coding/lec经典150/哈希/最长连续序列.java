@@ -52,10 +52,6 @@ public class 最长连续序列 {
         return list.get(list.size() - 1);
     }
 
-    public static void method2() {
-
-    }
-
     /**
      * 示例 1：
      *
