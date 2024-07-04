@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f718af2-a5b7-4dbf-b765-fe6d69655f3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/demo/合并两个有序链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/demo/环形链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/两数相加.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/LRU缓存.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/demo/两数相加.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/demo/分隔链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/demo/删除排序链表中的重复元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/demo/删除链表的倒数第N个结点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/分隔链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/删除排序链表中的重复元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/删除排序链表中的重复元素II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/删除链表的倒数第N个结点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/反转链表II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/旋转链表.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/read.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/model/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/model/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/环形链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/环形链表.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,9 +126,9 @@
       <recent name="com.example.coding.lec热题100.简单.链表.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.两数相加">
-    <configuration name="两数相加" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.链表.两数相加" />
+  <component name="RunManager" selected="Application.com.example.coding.lec经典150.链表.demo.分隔链表">
+    <configuration name="旋转链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.链表.旋转链表" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
@@ -132,47 +140,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="赎金信" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.哈希.demo.赎金信" />
-      <module name="coding.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.coding.lec经典150.哈希.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="有效的字母异位词" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.哈希.有效的字母异位词" />
-      <module name="coding.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.coding.lec经典150.哈希.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="字母异位词分组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.哈希.demo.字母异位词分组" />
-      <module name="coding.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.coding.lec经典150.哈希.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="环形链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.链表.环形链表" />
+    <configuration name="分隔链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.链表.分隔链表" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
@@ -192,6 +161,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.coding.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="删除链表的倒数第N个结点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.链表.删除链表的倒数第N个结点" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.链表.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -602,6 +584,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.example.coding.lec经典150.链表.demo.分隔链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.链表.demo.分隔链表" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.链表.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.coding.lec经典150.链表.demo.删除链表的倒数第N个结点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.链表.demo.删除链表的倒数第N个结点" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.链表.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CodingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="coding.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.coding.CodingApplication" />
@@ -611,11 +619,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.两数相加" />
-        <item itemvalue="Application.环形链表" />
-        <item itemvalue="Application.字母异位词分组" />
-        <item itemvalue="Application.有效的字母异位词" />
-        <item itemvalue="Application.赎金信" />
+        <item itemvalue="Application.com.example.coding.lec经典150.链表.demo.分隔链表" />
+        <item itemvalue="Application.分隔链表" />
+        <item itemvalue="Application.com.example.coding.lec经典150.链表.demo.删除链表的倒数第N个结点" />
+        <item itemvalue="Application.旋转链表" />
+        <item itemvalue="Application.删除链表的倒数第N个结点" />
       </list>
     </recent_temporary>
   </component>
@@ -674,7 +682,7 @@
       <workItem from="1719304310298" duration="1136000" />
       <workItem from="1719307768521" duration="8581000" />
       <workItem from="1719798261365" duration="30443000" />
-      <workItem from="1719907151119" duration="26274000" />
+      <workItem from="1719907151119" duration="54623000" />
     </task>
     <servers />
   </component>
@@ -711,6 +719,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.example.coding.lec经典150.链表.model.ListNode" memberName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="this.handlerMappings.get(2)" />
