@@ -4,10 +4,11 @@ import java.util.Arrays;
 
 /**
  * @author liutc
- * @date 2024/5/15 08:43
+ * @date 2024/7/9 17:32
  */
-public class Demo {
+public class 从索引位置开始右边元素旋转到左边定位置 {
 
+    //从索引改成元素的移动,利用取余算法
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
         //4 5 6 7 1 2 3
