@@ -9,50 +9,34 @@ import java.util.LinkedList;
  */
 public class MinStack {
 
-    public static void main(String[] args) {
-        Deque<Integer> xStack = new LinkedList<>();
-        xStack.push(1);
-        xStack.push(2);
-        xStack.push(3);
-
-        Integer pop = xStack.pop();
-        System.out.println(pop);
-        Integer peek = xStack.peek();
-        System.out.println(peek);
-    }
-
-    Deque<Integer> xStack;
-    Deque<Integer> minStack;
+    Deque<Integer> data;
+    Deque<Integer> min;
 
     public MinStack() {
-        xStack = new LinkedList<Integer>();
-        minStack = new LinkedList<Integer>();
-        minStack.push(Integer.MAX_VALUE);
+        data = new LinkedList<>();
+        min = new LinkedList<>();
     }
 
-    //将元素val推入堆栈。
     public void push(int x) {
-        //This method is equivalent to addFirst.
-        xStack.push(x);
-        minStack.push(Math.min(minStack.peek(), x));
+        data.push(x);
+        if (min.isEmpty() || min.peek() > x) {
+            min.push(x);
+        } else {
+            min.push(min.peek());
+        }
     }
 
-    // 删除堆栈顶部的元素。
     public void pop() {
-        //This method is equivalent to removeFirst().
-        xStack.pop();
-        minStack.pop();
+        data.pop();
+        min.pop();
     }
 
-    //获取堆栈顶部的元素。
     public int top() {
-        //This method is equivalent to peekFirst().
-        return xStack.peek();
+        return data.peek();
     }
 
-    //获取堆栈中的最小元素。
     public int getMin() {
-        return minStack.peek();
+        return min.peek();
     }
 
 }
