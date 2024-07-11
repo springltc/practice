@@ -1,10 +1,11 @@
-package com.example.coding.lec经典150.二叉树;
+package com.example.coding.lec经典150.二叉树.简单;
 
 /**
  * @author liutc
  * @date 2024/7/11 11:29
  */
 
+import com.example.coding.lec经典150.二叉树.TreeNode;
 import com.example.coding.spring.event.RegisterInfo;
 
 /**

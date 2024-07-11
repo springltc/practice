@@ -1,4 +1,4 @@
-package com.example.coding.lec经典150.二叉树;
+package com.example.coding.lec经典150.二叉树.简单;
 
 /**
  * @author liutc
@@ -106,6 +106,8 @@ package com.example.coding.lec经典150.二叉树;
  * 输入：p = [1,2,3], q = [1,2,3]
  * 输出：true
  */
+
+import com.example.coding.lec经典150.二叉树.TreeNode;
 
 /**
  * 输入：p = [1,2], q = [1,null,2]

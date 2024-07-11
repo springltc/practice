@@ -1,4 +1,6 @@
-package com.example.coding.lec经典150.二叉树;
+package com.example.coding.lec经典150.二叉树.简单;
+
+import com.example.coding.lec经典150.二叉树.TreeNode;
 
 /**
  * @author liutc
