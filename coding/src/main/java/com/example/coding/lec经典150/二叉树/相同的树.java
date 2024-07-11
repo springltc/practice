@@ -112,7 +112,8 @@ package com.example.coding.lec经典150.二叉树;
  * 输出：false
  */
 public class 相同的树 {
-
+    //1 2 3
+    //
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
             return true;

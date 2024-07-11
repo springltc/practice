@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f718af2-a5b7-4dbf-b765-fe6d69655f3f" name="Changes" comment="双指针">
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/栈/用栈实现队列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/demo/分隔链表_实现方式2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/链表/demo/合并两个有序链表_非递归.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/队列/循环双端队列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/队列/循环双端队列_数组实现.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/队列/用队列实现栈.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/demo/二叉树的最大深度.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/demo/二叉树的最小深度.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/demo/相同的树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/对称二叉树.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/read.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/轮转数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/轮转数组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/栈/demo/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/栈/demo/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/相同的树.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/相同的树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/翻转二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/翻转二叉树.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,11 +113,11 @@
       <recent name="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/demo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.coding.lec经典150.二叉树.demo" />
       <recent name="com.example.coding.lec经典150.队列" />
       <recent name="com.example.coding.lec经典150.链表.demo" />
       <recent name="com.example.coding.lec经典150.栈.demo" />
       <recent name="com.example.coding.lec经典150.双指针.demo" />
-      <recent name="com.example.coding.lec经典150.哈希.demo" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MinStack">
@@ -799,7 +798,7 @@
       <workItem from="1720167038403" duration="2578000" />
       <workItem from="1720169793352" duration="5055000" />
       <workItem from="1720401696292" duration="8256000" />
-      <workItem from="1720421005385" duration="28709000" />
+      <workItem from="1720421005385" duration="37796000" />
     </task>
     <servers />
   </component>

@@ -11,7 +11,17 @@ package com.example.coding.lec经典150.二叉树;
 public class 翻转二叉树 {
 
     public TreeNode invertTree(TreeNode root) {
+        if (root == null) {
+            return null;
+        }
 
-        return null;
+        TreeNode left = root.left;
+        root.left = root.right;
+        root.right = left;
+
+        invertTree(root.left);
+        invertTree(root.right);
+
+        return root;
     }
 }
