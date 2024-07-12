@@ -1,61 +1,6 @@
 package com.example.coding.lec经典150.位运算.简单;
 
 /**
- * @author liutc
- * @date 2024/7/5 17:41
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- * <p>
- * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
- */
-
-/**
  * 给你两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。
  */
 
@@ -77,10 +22,6 @@ public class 二进制求和 {
     public static void main(String[] args) {
         System.out.println('1' - '0');
         String a = "1010", b = "1011";
-//        System.out.println(String.valueOf('a'));
-//        System.out.println(0 % 2);
-//        System.out.println(1 % 2);
-//        System.out.println(2 % 2);
         String binary = addBinary(a, b);
         System.out.println(binary);
     }
@@ -95,8 +36,6 @@ public class 二进制求和 {
         List<Integer> list = new ArrayList<>();
         int step = 0;
         for (int i = 0; i < maxLength; i++) {
-//            int aVal = i > lengthA - 1 ? 0 : Integer.parseInt(String.valueOf(a.charAt(lengthA - 1 - i)));
-//            int bVal = i > lengthB - 1 ? 0 : Integer.parseInt(String.valueOf(b.charAt(lengthB - 1 - i)));
             int aVal = i > lengthA - 1 ? 0 : a.charAt(lengthA - 1 - i) - '0';
             int bVal = i > lengthB - 1 ? 0 : b.charAt(lengthB - 1 - i) - '0';
             int sum = aVal + bVal + step;

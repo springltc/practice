@@ -1,4 +1,4 @@
-package com.example.coding.lec经典150.位运算.简单;
+package com.example.coding.lec经典150.位运算.简单.demo;
 
 /**
  * 颠倒给定的 32 位无符号整数的二进制位。
@@ -24,11 +24,11 @@ public class 颠倒二进制位 {
 
     //00000010100101000001111010011100
     public static int reverseBits(int n) {
-        int rev = 0;
-        for (int i = 0; i < 32 && n != 0; ++i) {
-            rev |= (n & 1) << (31 - i);
-            n >>>= 1;
+        int aws = 0;
+        for (int i = 0; i < 32; i++) {
+            aws = aws | (n & 1) << (31 - i);
+            n = n >> 1;
         }
-        return rev;
+        return aws;
     }
 }
