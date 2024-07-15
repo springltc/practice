@@ -1,4 +1,4 @@
-package com.example.coding.lec经典150.双指针;
+package com.example.coding.lec经典150.双指针.中等;
 
 /**
  * @author liutc
