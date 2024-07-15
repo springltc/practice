@@ -18,6 +18,7 @@ package com.example.coding.lec经典150.位运算.中等;
  * 输入：left = 1, right = 2147483647
  * 输出：0
  */
+//https://leetcode.cn/problems/bitwise-and-of-numbers-range/description/?envType=study-plan-v2&envId=top-interview-150
 public class 数字范围按位与 {
 
     public static void main(String[] args) {
@@ -28,9 +29,18 @@ public class 数字范围按位与 {
      * 我们观察按位与运算的性质。对于一系列的位，例如 [1,1,0,1,1]，只要有一个零值的位，那么这一系列位的按位与运算结果都将为零。
      */
     public static int rangeBitwiseAnd2(int left, int right) {
+        //12 ->1100
+        //13 ->1101
+        //14 ->1110
+
+        //->1100
+
+        //12 ->1100
+        //11 ->1011
+        //12 & -12 = 0100
+
         while (left < right) {
-            // 抹去最右边的 1
-            right = right & (right - 1);
+            right = right - (right & -right);
         }
         return right;
     }
