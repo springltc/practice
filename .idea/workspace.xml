@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f718af2-a5b7-4dbf-b765-fe6d69655f3f" name="Changes" comment="双指针">
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/双指针/中等/demo/三数之和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/双指针/中等/demo/两数之和II_输入有序数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/中等/demo/二叉树的层序遍历.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/中等/二叉树的层序遍历.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/read.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/双指针/三数之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/双指针/中等/三数之和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/双指针/两数之和II_输入有序数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/双指针/中等/两数之和II_输入有序数组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/双指针/盛最多水的容器.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/双指针/中等/盛最多水的容器.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/最接近的三数之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数组和字符串/中等/最接近的三数之和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/简单/二叉树的层平均值.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/简单/二叉树的层平均值.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,20 +109,20 @@
       <recent name="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec/demo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.coding.lec经典150.二叉树.中等.demo" />
       <recent name="com.example.coding.lec经典150.双指针.中等.demo" />
       <recent name="com.example.coding.lec经典150.数组和字符串.中等.demo" />
       <recent name="com.example.coding.lec经典150.位运算.简单.demo" />
       <recent name="com.example.coding.lec经典150.位运算.中等.demo" />
-      <recent name="com.example.coding.lec经典150.二叉树.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.三数之和">
-    <configuration name="数字范围按位与" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.位运算.中等.数字范围按位与" />
+  <component name="RunManager" selected="Application.二叉树的层平均值">
+    <configuration name="二叉树的层平均值" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.二叉树.简单.二叉树的层平均值" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.coding.lec经典150.位运算.中等.*" />
+          <option name="PATTERN" value="com.example.coding.lec经典150.二叉树.简单.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,6 +143,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="二叉树的层序遍历" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.二叉树.中等.二叉树的层序遍历" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.二叉树.中等.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GcTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.coding.jvm.GcTest" />
       <module name="coding.main" />
@@ -154,19 +164,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.coding.jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="只出现一次的数字II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.位运算.中等.demo.只出现一次的数字II" />
-      <module name="coding.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.coding.lec经典150.位运算.中等.demo.只出现一次的数字II" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -759,6 +756,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.example.coding.lec经典150.二叉树.中等.demo.二叉树的层序遍历" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.二叉树.中等.demo.二叉树的层序遍历" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.二叉树.中等.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="大于等于n的最小的2某次方" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.位运算.简单.大于等于n的最小的2某次方" />
       <module name="coding.main" />
@@ -781,10 +791,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.二叉树的层平均值" />
+        <item itemvalue="Application.com.example.coding.lec经典150.二叉树.中等.demo.二叉树的层序遍历" />
+        <item itemvalue="Application.二叉树的层序遍历" />
         <item itemvalue="Application.三数之和" />
         <item itemvalue="Application.大于等于n的最小的2某次方" />
-        <item itemvalue="Application.数字范围按位与" />
-        <item itemvalue="Application.只出现一次的数字II" />
       </list>
     </recent_temporary>
   </component>
@@ -852,7 +863,7 @@
       <workItem from="1720680888856" duration="27376000" />
       <workItem from="1720774546356" duration="16000" />
       <workItem from="1721004637614" duration="3417000" />
-      <workItem from="1721023809311" duration="3097000" />
+      <workItem from="1721023809311" duration="8645000" />
     </task>
     <servers />
   </component>
@@ -890,6 +901,11 @@
           <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/src.zip!/java/util/AbstractMap.java</url>
           <line>546</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二叉树/简单/二叉树的层平均值.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
