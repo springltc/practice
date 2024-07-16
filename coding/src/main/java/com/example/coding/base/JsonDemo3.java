@@ -5,10 +5,6 @@ import com.alibaba.fastjson.JSONObject;
 
 import javax.xml.transform.Source;
 
-/**
- * @author liutc
- * @date 2024/4/29 18:01
- */
 public class JsonDemo3 {
 
     static String s = "{\"Size\": \"One Size\", \"Color\": \"Wine\"}";

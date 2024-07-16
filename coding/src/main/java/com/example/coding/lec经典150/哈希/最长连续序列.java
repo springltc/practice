@@ -1,9 +1,5 @@
 package com.example.coding.lec经典150.哈希;
 
-/**
- * @author liutc
- * @date 2024/2/6 14:10
- */
 
 import java.util.ArrayList;
 import java.util.Arrays;

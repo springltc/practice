@@ -6,10 +6,6 @@ import java.util.concurrent.SynchronousQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @author liutc
- * @date 2024/4/23 16:44
- */
 public class ThreadPoolDemo {
 
     public static void main(String[] args) {

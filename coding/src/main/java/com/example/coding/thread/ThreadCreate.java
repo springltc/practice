@@ -5,10 +5,6 @@ import sun.util.resources.cldr.lo.CalendarData_lo_LA;
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 
-/**
- * @author liutc
- * @date 2024/3/29 16:39
- */
 public class ThreadCreate {
 
     public static void main(String[] args) throws Exception {

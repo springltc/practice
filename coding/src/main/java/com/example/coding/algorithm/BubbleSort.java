@@ -1,9 +1,5 @@
 package com.example.coding.algorithm;
 
-/**
- * @author liutc
- * @date 2023/12/26 09:54
- */
 public class BubbleSort {
 
     public static void main(String[] args) {

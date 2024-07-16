@@ -1,9 +1,5 @@
 package com.example.coding.thread;
 
-/**
- * @author liutc
- * @date 2024/4/15 10:55
- */
 import com.google.common.util.concurrent.RateLimiter;
 
 public class TokenBucket {

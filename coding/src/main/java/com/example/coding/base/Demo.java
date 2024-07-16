@@ -6,10 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * @author liutc
- * @date 2024/4/29 17:38
- */
+
 public class Demo {
 
     public static void main(String[] args) {

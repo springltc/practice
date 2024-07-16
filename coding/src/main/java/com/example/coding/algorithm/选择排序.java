@@ -1,9 +1,5 @@
 package com.example.coding.algorithm;
 
-/**
- * @author liutc
- * @date 2023/12/26 10:04
- */
 public class 选择排序 {
 
     /**

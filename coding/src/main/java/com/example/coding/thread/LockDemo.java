@@ -3,10 +3,7 @@ package com.example.coding.thread;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-/**
- * @author liutc
- * @date 2024/4/2 14:23
- */
+
 public class LockDemo {
 
     private static ReentrantLock lock = new ReentrantLock();

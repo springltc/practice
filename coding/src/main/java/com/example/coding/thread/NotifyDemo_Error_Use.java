@@ -1,9 +1,6 @@
 package com.example.coding.thread;
 
-/**
- * @author liutc
- * @date 2024/3/28 15:36
- */
+
 public class NotifyDemo_Error_Use {
 
     public static void main(String[] args) throws InterruptedException {

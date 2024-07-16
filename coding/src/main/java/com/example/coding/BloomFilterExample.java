@@ -4,10 +4,6 @@ import com.google.common.base.Charsets;
 import com.google.common.hash.BloomFilter;
 import com.google.common.hash.Funnels;
 
-/**
- * @author liutc
- * @date 2024/4/11 17:56
- */
 public class BloomFilterExample {
     public static void main(String[] args) {
         // 创建布隆过滤器，预计插入100个元素，误判率为0.01

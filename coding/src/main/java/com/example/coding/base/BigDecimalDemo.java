@@ -2,10 +2,6 @@ package com.example.coding.base;
 
 import java.math.BigDecimal;
 
-/**
- * @author liutc
- * @date 2024/4/24 14:10
- */
 public class BigDecimalDemo {
 
     public static void main(String[] args) {

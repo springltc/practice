@@ -3,10 +3,6 @@ package com.example.coding.thread;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * @author liutc
- * @date 2024/3/28 16:21
- */
 public class VolatileAtomicityDemo {
     public volatile static int inc = 0;
 
