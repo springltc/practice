@@ -31,11 +31,37 @@ package com.example.coding.lec经典150.二分查找.中等;
 public class 寻找峰值 {
 
     public static void main(String[] args) {
-
+        int[] nums = {1,2,3,1};
+        int peakElement = findPeakElement(nums);
+        System.out.println(peakElement);
     }
 
-    public int findPeakElement(int[] nums) {
+    public static int findPeakElement(int[] nums) {
+        if (nums.length == 1) {
+            return 0;
+        }
+        if (nums[0] > nums[1]) {
+            return 0;
+        }
+        if (nums[nums.length - 1] > nums[nums.length - 2]) {
+            return nums.length - 1;
+        }
+        //     .
+        //   .   .
+        //  .      .
 
-        return 0;
+        int l = 1, r = nums.length - 2, m = 0;
+        while (l <= r) {
+            m = (l + r) / 2;
+            if (nums[m] < nums[m - 1]) {
+                r = m - 1;
+            } else if (nums[m] < nums[m + 1]) {
+                l = m + 1;
+            } else {
+                return m;
+            }
+        }
+
+        return m;
     }
 }
