@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f718af2-a5b7-4dbf-b765-fe6d69655f3f" name="Changes" comment="双指针" />
+    <list default="true" id="7f718af2-a5b7-4dbf-b765-fe6d69655f3f" name="Changes" comment="双指针">
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/中等/寻找峰值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/基础/有序数组中找大于等于num的最左位置.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/基础/有序数组中找小于等于num的最右位置.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/基础/有序数组中是否存在一个数字.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/简单/搜索插入位置.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/read.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,13 +118,13 @@
       <recent name="com.example.coding.lec经典150.位运算.简单.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.接雨水">
-    <configuration name="盛最多水的容器" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.双指针.中等.demo.盛最多水的容器" />
+  <component name="RunManager" selected="Application.搜索插入位置">
+    <configuration name="搜索插入位置" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.二分查找.简单.搜索插入位置" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.coding.lec经典150.双指针.中等.demo.*" />
+          <option name="PATTERN" value="com.example.coding.lec经典150.二分查找.简单.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,38 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="寻找重复数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.双指针.中等.寻找重复数" />
-      <module name="coding.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.coding.lec经典150.双指针.中等.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="救生艇" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.双指针.中等.救生艇" />
-      <module name="coding.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.coding.lec经典150.双指针.中等.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="接雨水" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.双指针.困难.接雨水" />
+    <configuration name="缺失的第一个正数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.双指针.困难.缺失的第一个正数" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.coding.lec经典150.双指针.困难.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="有序数组中是否存在一个数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.二分查找.基础.有序数组中是否存在一个数字" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.二分查找.简单.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,84 +166,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.coding.jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.base.MapD" />
-      <module name="coding.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.coding.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="移除元素" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec.数组和字符串.移除元素" />
-      <module name="coding.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.coding.lec.数组和字符串.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="回文数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数学.回文数" />
-      <module name="coding.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.coding.lec经典150.数学.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="二叉搜索树的最小绝对差" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.二叉树.简单.二叉搜索树的最小绝对差" />
-      <module name="coding.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.coding.lec经典150.二叉树.简单.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="反转字符串中的单词" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec.数组和字符串.中等.反转字符串中的单词" />
-      <module name="coding.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.coding.lec.数组和字符串.中等.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="三数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.双指针.demo.三数之和" />
-      <module name="coding.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.coding.lec经典150.双指针.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -387,6 +303,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="寻找重复数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.双指针.中等.寻找重复数" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.双指针.中等.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="汇总区间" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.coding.lec.区间.汇总区间" />
       <module name="coding.main" />
@@ -510,6 +439,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.coding.lec经典150.栈.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="救生艇" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.双指针.中等.救生艇" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.双指针.中等.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -647,6 +589,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="接雨水" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.双指针.困难.接雨水" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.双指针.困难.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="有效的括号" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.coding.lec热题100.简单.栈.有效的括号" />
       <module name="coding.main" />
@@ -777,6 +732,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="移除元素" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec.数组和字符串.移除元素" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec.数组和字符串.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="三数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.双指针.中等.demo.三数之和" />
       <module name="coding.main" />
@@ -829,6 +797,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="回文数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数学.回文数" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.数学.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="二叉搜索树的最小绝对差" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.二叉树.简单.二叉搜索树的最小绝对差" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.二叉树.简单.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="反转字符串中的单词" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec.数组和字符串.中等.反转字符串中的单词" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec.数组和字符串.中等.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="三数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.双指针.demo.三数之和" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.双指针.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="有序数组中找大于等于num的最左位置" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.二分查找.基础.有序数组中找大于等于num的最左位置" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.二分查找.简单.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="有序数组中找小于等于num的最右位置" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.二分查找.基础.有序数组中找小于等于num的最右位置" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.二分查找.简单.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CodingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="coding.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.coding.CodingApplication" />
@@ -838,11 +884,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.接雨水" />
-        <item itemvalue="Application.盛最多水的容器" />
-        <item itemvalue="Application.MapD" />
-        <item itemvalue="Application.救生艇" />
-        <item itemvalue="Application.寻找重复数" />
+        <item itemvalue="Application.搜索插入位置" />
+        <item itemvalue="Application.有序数组中找小于等于num的最右位置" />
+        <item itemvalue="Application.有序数组中找大于等于num的最左位置" />
+        <item itemvalue="Application.有序数组中是否存在一个数字" />
+        <item itemvalue="Application.缺失的第一个正数" />
       </list>
     </recent_temporary>
   </component>
@@ -914,6 +960,7 @@
       <workItem from="1721092657374" duration="18803000" />
       <workItem from="1721182295897" duration="3893000" />
       <workItem from="1721266154262" duration="22726000" />
+      <workItem from="1721352432945" duration="13862000" />
     </task>
     <servers />
   </component>
