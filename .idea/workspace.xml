@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f718af2-a5b7-4dbf-b765-fe6d69655f3f" name="Changes" comment="双指针">
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/中等/在排序数组中查找元素的第一个和最后一个位置.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/中等/搜索二维矩阵.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/中等/搜索旋转排序数组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/read.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/中等/寻找峰值.java" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/中等/寻找峰值.java" afterDir="false" />
-    </list>
+    <list default="true" id="7f718af2-a5b7-4dbf-b765-fe6d69655f3f" name="Changes" comment="双指针" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -959,7 +953,7 @@
       <workItem from="1721092657374" duration="18803000" />
       <workItem from="1721182295897" duration="3893000" />
       <workItem from="1721266154262" duration="22726000" />
-      <workItem from="1721352432945" duration="22246000" />
+      <workItem from="1721352432945" duration="22332000" />
     </task>
     <servers />
   </component>

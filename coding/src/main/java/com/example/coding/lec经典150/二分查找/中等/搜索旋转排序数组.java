@@ -32,16 +32,13 @@ package com.example.coding.lec经典150.二分查找.中等;
 public class 搜索旋转排序数组 {
 
     public static void main(String[] args) {
-        int[] nums = {3, 5, 1};
-        int target = 3;
+        int[] nums = {3,1};
+        int target = 1;
         int search = search(nums, target);
         System.out.println(search);
     }
 
     public static int search(int[] nums, int target) {
-        //先升再降再升 N
-        //中前 < target
-        //中后 < target
         int l = 0, r = nums.length - 1, m = 0;
         while (l <= r) {
             m = (l + r) / 2;
@@ -49,19 +46,17 @@ public class 搜索旋转排序数组 {
             if (val == target) {
                 return m;
             }
-            if (m == nums.length - 1 || m == 0) {
-                break;
-            }
-            //上升段 : 注意m + 1 <= nums.length - 2边界问题
-            if (nums[m + 1] > nums[m]) {
-                if (nums[m] > target) {
+
+            //左升
+            if (nums[m] >= nums[l]) {
+                if (target >= nums[l] && target < nums[m]) {
                     r = m - 1;
                 } else {
                     l = m + 1;
                 }
             } else {
-                //下降段
-                if (nums[m] > target) {
+                //右升
+                if (target > nums[m] && target <= nums[r]) {
                     l = m + 1;
                 } else {
                     r = m - 1;
