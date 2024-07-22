@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f718af2-a5b7-4dbf-b765-fe6d69655f3f" name="Changes" comment="双指针">
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/中等/demo/寻找峰值.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/中等/demo/搜索二维矩阵.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/基础/demo/有序数组中找大于等于num的最左位置.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/基础/demo/有序数组中找小于等于num的最右位置.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/基础/demo/有序数组中是否存在一个数字.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/二分查找/简单/demo/搜索插入位置.java" afterDir="false" />
-    </list>
+    <list default="true" id="7f718af2-a5b7-4dbf-b765-fe6d69655f3f" name="Changes" comment="双指针" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1040,7 +1033,7 @@
       <workItem from="1721266154262" duration="22726000" />
       <workItem from="1721352432945" duration="22332000" />
       <workItem from="1721452630949" duration="4458000" />
-      <workItem from="1721610735457" duration="5492000" />
+      <workItem from="1721610735457" duration="6190000" />
     </task>
     <servers />
   </component>

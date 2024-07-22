@@ -37,6 +37,12 @@ public class 寻找峰值 {
         System.out.println(peakElement);
     }
 
+    /**
+     * 通过左右两边的值判断 因为用到了m-1 和 m+1 所有要对第一个元素和最有一个元素先判断
+     * 然后l从1开始 r从n-2开始
+     * @param nums
+     * @return
+     */
     public static int findPeakElement(int[] nums) {
         if (nums.length == 1) {
             return 0;
