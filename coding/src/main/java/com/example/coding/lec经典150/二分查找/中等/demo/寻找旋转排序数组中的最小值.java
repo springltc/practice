@@ -1,4 +1,4 @@
-package com.example.coding.lec经典150.二分查找.中等;
+package com.example.coding.lec经典150.二分查找.中等.demo;
 
 /**
  * 已知一个长度为 n 的数组，预先按照升序排列，经由 1 到 n 次 旋转 后，得到输入数组。例如，原数组 nums = [0,1,2,4,5,6,7] 在变化后可能得到：
@@ -33,28 +33,32 @@ package com.example.coding.lec经典150.二分查找.中等;
  * nums 中的所有整数 互不相同
  * nums 原来是一个升序排序的数组，并进行了 1 至 n 次旋转
  */
+//https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
 public class 寻找旋转排序数组中的最小值 {
 
     public static void main(String[] args) {
-        int[] nums = {3, 1, 2};
+        int[] nums = {3, 4, 5, 1, 2};
         int min = findMin(nums);
         System.out.println(min);
     }
 
-    public static int findMin(int[] nums) {
+    //一直升 l=<m<=r
+    //先升再降 在左边 在右边
+    private static int findMin(int[] nums) {
         int l = 0, r = nums.length - 1, m = 0;
-        int min = nums[0];
+        int aws = nums[0];
         while (l <= r) {
             m = (l + r) / 2;
             //一直升
-            if (nums[0] <= nums[m] && nums[m] <= nums[nums.length - 1]) {
+            if (nums[m] >= nums[0] && nums[m] <= nums[nums.length - 1]) {
+                aws = Math.min(aws, nums[m]);
                 r = m - 1;
-                min = Math.min(min, nums[m]);
             } else {
+                //肯定在右边
                 //右升
                 if (nums[m] <= nums[0] && nums[m] <= nums[nums.length - 1]) {
+                    aws = Math.min(aws, nums[m]);
                     r = m - 1;
-                    min = Math.min(min, nums[m]);
                 } else {
                     //左升
                     l = m + 1;
@@ -62,27 +66,7 @@ public class 寻找旋转排序数组中的最小值 {
             }
         }
 
-        return min;
-    }
-
-    /**
-     * 题解的方法
-     *
-     * @param nums
-     * @return
-     */
-    public int findMin2(int[] nums) {
-        int low = 0;
-        int high = nums.length - 1;
-        while (low < high) {
-            int pivot = low + (high - low) / 2;
-            if (nums[pivot] < nums[high]) {
-                high = pivot;
-            } else {
-                low = pivot + 1;
-            }
-        }
-        return nums[low];
+        return aws;
     }
 
 }

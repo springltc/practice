@@ -29,11 +29,12 @@ package com.example.coding.lec经典150.二分查找.中等.demo;
  * 题目数据保证 nums 在预先未知的某个下标上进行了旋转
  * -104 <= target <= 104
  */
+//https://leetcode.cn/problems/search-in-rotated-sorted-array/submissions/548737446/?envType=study-plan-v2&envId=top-interview-150
 public class 搜索旋转排序数组 {
 
     public static void main(String[] args) {
-        int[] nums = {3, 1};
-        int target = 1;
+        int[] nums = {5, 1, 3};
+        int target = 3;
         int search = search(nums, target);
         System.out.println(search);
     }
@@ -51,7 +52,21 @@ public class 搜索旋转排序数组 {
                 return m;
             }
 
-            //todo
+            //左升
+            if (nums[m] >= nums[l]) {
+                if (target >= nums[l] && target < nums[m]) {
+                    r = m - 1;
+                } else {
+                    l = l + 1;
+                }
+            } else {
+                //右升
+                if (target <= nums[r] && target > nums[m]) {
+                    l = m + 1;
+                } else {
+                    r = m - 1;
+                }
+            }
         }
 
         return index;
