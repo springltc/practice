@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f718af2-a5b7-4dbf-b765-fe6d69655f3f" name="Changes" comment="双指针">
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/堆/demo/i位置的数_向上调整大根堆.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/堆/demo/i位置的数_向下调整大根堆.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/堆/demo/堆排序_向上调整大根堆.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/堆/demo/堆排序_向下调整大根堆.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/堆/i位置的数_向上调整大根堆.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/堆/i位置的数_向下调整大根堆.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/堆/堆排序_向上调整大根堆.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/堆/堆排序_向下调整大根堆.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/堆/排序数组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/coding/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/堆/中等/数组中的第K个最大元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/堆/中等/查找和最小的K对数字.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数学/x的平方根.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/数学/阶乘后的零.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/coding/src/main/java/com/example/coding/lec经典150/read.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,13 +118,13 @@
       <recent name="com.example.coding.lec经典150.二分查找.基础.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.堆排序_向上调整大根堆">
-    <configuration name="搜索插入位置" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.二分查找.简单.搜索插入位置" />
+  <component name="RunManager" selected="Application.阶乘后的零">
+    <configuration name="阶乘后的零" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数学.阶乘后的零" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.coding.lec经典150.二分查找.简单.*" />
+          <option name="PATTERN" value="com.example.coding.lec经典150.数学.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,6 +140,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.coding.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数组中的第K个最大元素" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.堆.中等.数组中的第K个最大元素" />
+      <module name="coding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.coding.lec经典150.堆.中等.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -984,8 +992,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="有序数组中找大于等于num的最左位置" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.二分查找.基础.demo.有序数组中找大于等于num的最左位置" />
+    <configuration name="有序数组中找小于等于num的最右位置" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.二分查找.基础.demo.有序数组中找小于等于num的最右位置" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
@@ -997,12 +1005,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="有序数组中找小于等于num的最右位置" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.二分查找.基础.demo.有序数组中找小于等于num的最右位置" />
+    <configuration name="x的平方根" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.coding.lec经典150.数学.x的平方根" />
       <module name="coding.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.coding.lec经典150.二分查找.基础.demo.*" />
+          <option name="PATTERN" value="com.example.coding.lec经典150.数学.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1019,10 +1027,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.阶乘后的零" />
+        <item itemvalue="Application.x的平方根" />
+        <item itemvalue="Application.数组中的第K个最大元素" />
         <item itemvalue="Application.堆排序_向下调整大根堆" />
         <item itemvalue="Application.堆排序_向上调整大根堆" />
-        <item itemvalue="Application.有序数组中找大于等于num的最左位置" />
-        <item itemvalue="Application.搜索插入位置" />
       </list>
     </recent_temporary>
   </component>
@@ -1103,7 +1112,7 @@
       <workItem from="1721640994232" duration="96000" />
       <workItem from="1721641096795" duration="645000" />
       <workItem from="1721806388242" duration="704000" />
-      <workItem from="1722307574261" duration="6722000" />
+      <workItem from="1722307574261" duration="10692000" />
     </task>
     <servers />
   </component>
