@@ -190,6 +190,40 @@ package com.example.coding.lec经典150.哈希;
  * <p>
  * 输入: pattern = "aaaa", s = "dog cat cat dog"
  * 输出: false
+ * <p>
+ * 给定一种规律 pattern 和一个字符串 s ，判断 s 是否遵循相同的规律。
+ * <p>
+ * 这里的 遵循 指完全匹配，例如， pattern 里的每个字母和字符串 s 中的每个非空单词之间存在着双向连接的对应规律。
+ * <p>
+ * 示例1:
+ * <p>
+ * 输入: pattern = "abba", s = "dog cat cat dog"
+ * 输出: true
+ * 示例 2:
+ * <p>
+ * 输入:pattern = "abba", s = "dog cat cat fish"
+ * 输出: false
+ * 示例 3:
+ * <p>
+ * 输入: pattern = "aaaa", s = "dog cat cat dog"
+ * 输出: false
+ * <p>
+ * 给定一种规律 pattern 和一个字符串 s ，判断 s 是否遵循相同的规律。
+ * <p>
+ * 这里的 遵循 指完全匹配，例如， pattern 里的每个字母和字符串 s 中的每个非空单词之间存在着双向连接的对应规律。
+ * <p>
+ * 示例1:
+ * <p>
+ * 输入: pattern = "abba", s = "dog cat cat dog"
+ * 输出: true
+ * 示例 2:
+ * <p>
+ * 输入:pattern = "abba", s = "dog cat cat fish"
+ * 输出: false
+ * 示例 3:
+ * <p>
+ * 输入: pattern = "aaaa", s = "dog cat cat dog"
+ * 输出: false
  */
 
 /**
@@ -216,6 +250,7 @@ package com.example.coding.lec经典150.哈希;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Set;
 
 /**
  * 提示:
@@ -234,7 +269,38 @@ public class 单词规律 {
         String pattern = "abba";
         boolean wordPattern = wordPattern(pattern, s);
         System.out.println(wordPattern);
+
+        Integer[] arr =  new Integer[26];
+        new HashMap<String,Integer[]>();
+        Set<Object> objects = new HashMap<>().keySet();
+        for (Object value : new HashMap<>().values()) {
+
+        }
     }
+
+    //错误
+//    public static boolean wordPattern(String pattern, String s) {
+//        int plength = pattern.length();
+//        String[] sArray = s.split(" ");
+//        int slength = sArray.length;
+//        if (plength != slength) {
+//            return false;
+//        }
+//
+//        Map<Integer, String> map = new HashMap<Integer, String>();
+//        for (int i = 0; i < plength; i++) {
+//            char c = pattern.charAt(i);
+//            String val = map.get(c - 'a');
+//            if (val == null) {
+//                map.put(c - 'a', sArray[i]);
+//            } else {
+//                if (!val.equals(sArray[i])) {
+//                    return false;
+//                }
+//            }
+//        }
+//        return true;
+//    }
 
     public static boolean wordPattern(String pattern, String s) {
         String[] split = s.split(" ");

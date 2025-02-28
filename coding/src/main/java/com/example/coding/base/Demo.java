@@ -19,5 +19,8 @@ public class Demo {
 
         // 打印转换后的JSONArray
         System.out.println(jsonArray.toString());
+        String s = "";
+        s.contains("a");
+        s.length();
     }
 }

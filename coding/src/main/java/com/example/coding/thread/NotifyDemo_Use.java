@@ -28,5 +28,8 @@ public class NotifyDemo_Use {
             System.out.println("notify()之后");
         });
         t2.start();
+
+
+        Thread.sleep(3000);//等待1
     }
 }

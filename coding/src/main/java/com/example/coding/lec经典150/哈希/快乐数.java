@@ -30,11 +30,12 @@ public class 快乐数 {
     public static void main(String[] args) {
         int n = 19;
 
-        boolean happy = isHappy(19);
-        System.out.println(happy);
+//        boolean happy = isHappy(19);
+//        System.out.println(happy);
 
-        System.out.println(19 % 10);
-        System.out.println(19 / 10);
+        System.out.println(199 % 10);
+        System.out.println(199 / 10);
+        System.out.println(5/10);
     }
 
     private static int getNext(int n) {

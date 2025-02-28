@@ -9,7 +9,9 @@ package com.example.coding.lec经典150.双指针.中等;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * 给你一个整数数组 nums ，判断是否存在三元组 [nums[i], nums[j], nums[k]] 满足 i != j、i != k 且 j != k ，
@@ -22,10 +24,48 @@ import java.util.List;
 public class 三数之和 {
     public static void main(String[] args) {
         int[] nums = {-1, 0, 1, 2, -1, -4};
-        List<List<Integer>> list = method1(nums);
-        for (List<Integer> integers : list) {
-            System.out.println(integers);
+        List<List<Integer>> list = threeSum(nums);
+        System.out.println(list);
+    }
+
+    public static List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+
+        List<List<Integer>> list = new ArrayList<List<Integer>>();
+
+        int length = nums.length;
+        Set<String> sets = new HashSet<String>();
+        for (int i = 0; i < length; i++) {
+            int start = i + 1;
+            int end = length - 1;
+
+            int val1 = nums[i];
+            while (end > start) {
+                int val2 = nums[start];
+                int val3 = nums[end];
+                int sum = val1 + val2 + val3;
+                if (sum == 0) {
+                    //答案中不可以包含重复的三元组。
+                    String key = val1 + "" + val2 + "" + val3;
+                    if (!sets.contains(key)) {
+                        sets.add(key);
+
+                        List<Integer> result = new ArrayList<Integer>();
+                        result.add(val1);
+                        result.add(val2);
+                        result.add(val3);
+                        list.add(result);
+                        start++;
+                    }
+                } else if (sum > 0) {
+                    end--;
+                } else {
+                    start++;
+                }
+            }
         }
+
+        return list;
     }
 
     //超出时间限制

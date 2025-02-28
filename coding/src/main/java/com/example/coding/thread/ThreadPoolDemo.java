@@ -15,5 +15,7 @@ public class ThreadPoolDemo {
                 60L, TimeUnit.SECONDS,
                 new SynchronousQueue<Runnable>());
         poolExecutor.execute(() -> System.out.println("122"));
+        poolExecutor.execute(() -> System.out.println("122"));
+        poolExecutor.execute(() -> System.out.println("122"));
     }
 }

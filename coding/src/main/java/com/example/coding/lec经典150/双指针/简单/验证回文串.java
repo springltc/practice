@@ -119,9 +119,36 @@ public class 验证回文串 {
 
     public static void main(String[] args) {
         String s = "A man, a plan, a canal: Panama";
+//        s = s.replaceAll("[^a-zA-Z0-9]", "");
+//        System.out.println(s);
+//        s = s.toLowerCase();
+//        System.out.println(s);
+        boolean palindrome = isPalindrome(s);
+        System.out.println(palindrome);
     }
 
-    public boolean isPalindrome(String s) {
+    public static boolean isPalindrome(String s) {
+        s = s.replaceAll("[^a-zA-Z0-9]", "");
+        s = s.toLowerCase();
+
+        int length = s.length();
+        int start = 1;
+        int end = length;
+        while (end >= start) {
+            String prefix = s.substring(start - 1, start);
+            String last = s.substring(end - 1, end);
+            if (prefix.equals(last)) {
+                start++;
+                end--;
+            } else {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public boolean isPalindrome2(String s) {
         s = s.replaceAll("[^a-zA-Z0-9]", "");
         if (s.length() == 0) {
             return true;

@@ -117,10 +117,15 @@ package com.example.coding.lec经典150.哈希;
 public class 赎金信 {
 
     public static void main(String[] args) {
-        int[] cnt = new int[26];
-        cnt[1]=0;
-        cnt[1]++;
-        System.out.println(cnt[1]);
+//        int[] cnt = new int[26];
+//        cnt[1]=0;
+//        cnt[1]++;
+//        System.out.println(cnt[1]);
+        //
+        String s = "aab";
+        char c = s.charAt(0);
+        System.out.println((int) c);
+        System.out.println('a'-'a');
     }
 
     public boolean canConstruct(String ransomNote, String magazine) {
