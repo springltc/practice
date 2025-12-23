@@ -1,0 +1,7 @@
+
+©
+java:S1130"‹Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException', as it cannot be thrown from method's body.(“û€‹8„–¦­´3
+G	java:S106"+Replace this use of System.out by a logger.(£ÆÏÁ8ÄÊŸ­´3
+X	java:S125"<This block of commented-out lines of code should be removed.(ìÕÙÜ8–¦­´3
+M
+java:S1068"0Remove this unused "objectMapper" private field.(ì²š§8–¦­´3

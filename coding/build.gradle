@@ -38,6 +38,8 @@ dependencies {
     implementation 'org.apache.commons:commons-lang3:3.10'
     implementation 'cn.hutool:hutool-all:5.8.17'  // 使用最新版本（请根据需要选择版本）
     implementation 'org.redisson:redisson:3.19.0'  // 使用最新版本（请根据需要选择版本）
+    // EasyExcel 核心依赖（阿里出品，使用简单）
+    implementation 'com.alibaba:easyexcel:4.0.3'
 }
 
 tasks.named('test') {
