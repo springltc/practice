@@ -1,0 +1,8 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(àêÖö8ãåÁ†º3
+L	java:S106"+Replace this use of System.out by a logger.(éÇÁŞıÿÿÿÿ8ª®À†º3
+G	java:S106""+Replace this use of System.out by a logger.(îƒÍ›8«®À†º3
+Q
+java:S2201("/The return value of "orElseThrow" must be used.(ÿâÁ‹şÿÿÿÿ8­®À†º3
+[
+java:S1612'">Replace this lambda with method reference 'City::getCityName'.(úÜÎ¡8™æÁ†º3

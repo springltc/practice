@@ -1,0 +1,5 @@
+
+G	java:S106 "+Replace this use of System.out by a logger.(´ÜÔ«8Õ¯Ê´3
+L	java:S106&"+Replace this use of System.out by a logger.(ŒæÏâüÿÿÿÿ8û½ÁÊ´3
+m
+java:S1206+"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8§À×Ë´3

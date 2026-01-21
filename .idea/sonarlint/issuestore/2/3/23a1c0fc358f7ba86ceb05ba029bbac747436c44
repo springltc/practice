@@ -1,0 +1,10 @@
+
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(¬†ù
+E	java:S106"+Replace this use of System.out by a logger.(ğŠ¯äøÿÿÿÿ
+G	java:S106"+Replace this use of System.out by a logger.(Šù¦8ÖüÖÕ´3
+G	java:S106"+Replace this use of System.out by a logger.(´¯üÛ8ÖüÖÕ´3
+i
+java:S1128"LRemove this unused import 'com.example.coding.excel.SimpleExportController'.(µ‰¥•8›²èÕ´3
+_
+java:S1128"=Remove this unused import 'com.example.coding.excel.UserDTO'.(­Ğ¶×øÿÿÿÿ8›²èÕ´3

@@ -1,0 +1,6 @@
+
+
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8´ÉÓÕ´3
+e
+java:S3252"HUse static access with "com.alibaba.excel.EasyExcelFactory" for "write".(ÊÜâˆ8µä›Ñ´3
+G	java:S106%"+Replace this use of System.out by a logger.(ÅÇ—8óášÑ´3

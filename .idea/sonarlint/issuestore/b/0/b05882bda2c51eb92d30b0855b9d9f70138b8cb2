@@ -1,0 +1,19 @@
+
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢²åÁ8è˜ Ö´3
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Æ‹Ï8ì˜ Ö´3
+d
+java:S3252 "HUse static access with "com.alibaba.excel.EasyExcelFactory" for "write".(ò«›?8ú˜ Ö´3
+t
+java:S3776-"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ü¼›äıÿÿÿÿ8ı˜ Ö´3
+M
+java:S1172-"+Remove this unused method parameter "data".(ü¼›äıÿÿÿÿ8ş˜ Ö´3
+I
+java:S30112",This accessibility update should be removed.(˜ÂÓ˜8ÿ˜ Ö´3
+X	java:S125S"<This block of commented-out lines of code should be removed.(òÆÜ8‡™ Ö´3
+]	java:S125Y"<This block of commented-out lines of code should be removed.(Ş—®ƒúÿÿÿÿ8‡™ Ö´3
+X	java:S125g"<This block of commented-out lines of code should be removed.(Ï¨‰ë8‡™ Ö´3
+e
+java:S1128"CRemove this unused import 'com.example.coding.excel.ExportControl'.(öëÿŒùÿÿÿÿ8ˆ™ Ö´3
+h
+java:S1128"LRemove this unused import 'org.apache.commons.collections4.CollectionUtils'.(»÷Ój8ˆ™ Ö´3
